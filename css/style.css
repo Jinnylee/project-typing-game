@@ -10,7 +10,7 @@ header {
 }
 
 .gamePage{
-  background-color: #E4DBBF;
+  background-image: url(../images/school.png);
   height: 600px;
   border-radius: 5px;
 }
@@ -35,10 +35,14 @@ header {
 
 h1{
   font-size: 60px;
+  text-align: center;
 }
 
 .playAgain {
-  display: none;
+  border-radius: 10px;
+  background-color: #70AB8F;
+  font-size: 50px;
+  margin: 30px 300px 0px 300px;
 }
 
 .scoreboard {
@@ -69,6 +73,7 @@ h1{
   margin-left:33.3px;
   margin-right:33.3px;
 }
+
 #b{
   margin-right:33.3px;
 }
@@ -94,12 +99,6 @@ h1{
   text-align: center;
 }
 
-.gameAgain {
-  border:none;
-  border-radius: 10px;
-  background-color: #70AB8F;
-}
-
 .reset{
   border: none;
   border-radius: 5px;
@@ -107,13 +106,36 @@ h1{
   font-size: 30px;
 }
 
+#pScore{
+  margin-top: 200px;
+}
+
 .playerName{
   text-align: center;
   font-size: 30px;
   color: #627182;
+  margin-top: 30px;
 }
 
 #over{
-  margin-top:200px;
+  margin-top:150px;
   font-size: 80px;
+}
+
+.top{
+  display: none;
+  background-color: #DC5B21;
+  height: 600px;
+}
+
+li{
+  list-style-type: none;
+  font-size: 30px;
+  text-align: center;
+}
+
+.enter{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
 }
